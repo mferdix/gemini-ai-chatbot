@@ -6,7 +6,7 @@ import os
 app = Flask(__name__, static_folder="static")
 CORS(app)
 
-genai.configure(api_key="AIzaSyACrTOIcxhvw9HGWwJSgJXRbWmnoMSDlZs") ##<< Ganti pakai API GEMINI
+genai.configure(api_key="YOUR_GEMINI_API_KEY") ##<< Ganti pakai API GEMINI
 
 @app.route("/")
 def serve_index():

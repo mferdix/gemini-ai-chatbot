@@ -6,4 +6,4 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - GEMINI_API_KEY=AIzaSyACrTOIcxhvw9HGWwJSgJXRbWmnoMSDlZs ##<< Ganti pakai API GEMINI
+      - GEMINI_API_KEY=YOUR_GEMINI_API_KEY ##<< Ganti pakai API GEMINI
